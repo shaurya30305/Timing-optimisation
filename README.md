@@ -78,7 +78,8 @@ wire g1.p2 g2.p1
 
 1.) Singly connected circuit(checking if the algorithm understands to just cause the pins to overlap)
 
-![image](https://github.com/user-attachments/assets/c27e2ddc-ce4a-460f-9abb-4e2acf2d2eb2)
+![image](https://github.com/user-attachments/assets/2322c21f-a021-4d2c-9260-132b2620177e)
+
 
 2.) Multiple connections from a single pin(checking the bounding box method for distance calculation)
 
