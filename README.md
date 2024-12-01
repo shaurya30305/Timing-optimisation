@@ -77,14 +77,24 @@ wire g1.p2 g2.p1
 
 
 1.) Singly connected circuit(checking if the algorithm understands to just cause the pins to overlap)
+
 ![image](https://github.com/user-attachments/assets/c27e2ddc-ce4a-460f-9abb-4e2acf2d2eb2)
+
 2.) Multiple connections from a single pin(checking the bounding box method for distance calculation)
+
 ![image](https://github.com/user-attachments/assets/020e32cb-2aa8-4451-90b4-dd46a600b9dc)
+
 3.) Circular connection(checking for negative edge weight loops in the dfs algorithm, it just ignores the loop)
+
 ![image](https://github.com/user-attachments/assets/7842cd25-c854-48dd-8c89-572ce45faf19)
+
 4.) Correctness check(in this configuration it is possible to cause all connected pins to overlap, checking if the algo finds this layout, I havent run this through the visualiser but we can see that the output delay is just the sum of gate delays)
+
+
 ![image](https://github.com/user-attachments/assets/b9834c4b-6a48-4852-9163-6a2ee9eb7da5)
+
 5.) Densely connected circuit with 25 pins
+
 ![image](https://github.com/user-attachments/assets/4ff3cc80-a62c-41f6-8452-2f841341a6a8)
 
 
